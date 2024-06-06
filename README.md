@@ -17,8 +17,9 @@ General usecase
 1. At time of EVM configuration , evm will print some slips based on input
 
 Inputs will be
-a. machine identity -> voting unit, control unit , loaded sequences of candidates and party symbol ( can be decrypted anytime with general predefined key)
-b. vote sequence -> can be revealed with special keys once candidate call for objection. 
-c. integrity hash -> will be printed towards end of voting and it will be shared publically to ensure trust. If any votes is manipulated, hash will be different. For every 1000 votes, there will be 1 hash will be printed. So at end of day , will have series of hashes plus  hashes of all hash.
 
-d. at time of counting , there must be hash match and then if any mismatch , raise flag
+a.  machine identity -> voting unit, control unit , loaded sequences of candidates and party symbol ( can be decrypted anytime with general predefined key)
+b.  vote sequence -> can be revealed with special keys once candidate call for objection. 
+c.  integrity hash -> will be printed towards end of voting and it will be shared publically to ensure trust. If any votes is manipulated, hash will be different. For every 1000 votes, there will be 1 hash will be printed. So at end of day , will have series of hashes plus  hashes of all hash.
+
+d.  at time of counting , there must be hash match and then if any mismatch , raise flag
